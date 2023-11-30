@@ -1,0 +1,12 @@
+\babel@toc {spanish}{}\relax 
+\beamer@sectionintoc {1}{Introducción}{2}{0}{1}
+\beamer@sectionintoc {2}{Antecedentes}{5}{0}{2}
+\beamer@sectionintoc {3}{Planificación}{9}{0}{3}
+\beamer@sectionintoc {4}{Metodología}{11}{0}{4}
+\beamer@sectionintoc {5}{Recomendaciones}{14}{0}{5}
+\beamer@sectionintoc {6}{Parámetros acústicos obtenidos}{17}{0}{6}
+\beamer@sectionintoc {7}{Modelación}{31}{0}{7}
+\beamer@sectionintoc {8}{Propuesta}{40}{0}{8}
+\beamer@sectionintoc {9}{Presupuesto}{52}{0}{9}
+\beamer@sectionintoc {10}{Medición coeficiente de absorción acústica de un material}{54}{0}{10}
+\beamer@sectionintoc {11}{Conclusiones Parciales}{59}{0}{11}

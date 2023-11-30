@@ -68,6 +68,8 @@ En el contexto de una sala de ensayo de orquesta, el acondicionamiento acústico
 El volumen de cada recinto se ven en la siguiente tabla
     \begin{table}[H]
         \centering
+        \caption{Volumen de salas}
+        \label{tab:volumne de salas}
         \begin{tabular}{|l|c|}
         \hline
          \textbf{Salón} & \textbf{Volumen $m^3$} \\ \hline
@@ -75,8 +77,6 @@ El volumen de cada recinto se ven en la siguiente tabla
          Sala de reunión 1 & 115 \\ \hline
          Sala de reunión 2 & 101 \\ \hline
         \end{tabular}
-        \caption{Volumen de salas}
-        \label{tab:volumne de salas}
     \end{table}
 \end{frame}
 \section{Planificación}
@@ -102,26 +102,22 @@ Esta planificación se plantea por semanas, desde la semana del 21 de agosto has
     \label{fig: planos}
 \end{figure}
 \end{frame}
-\begin{frame}{Medición de parámetros acústicos de los recintos}
+\begin{frame}{Medición de ruido de fondo}
     Para poder caracterizar acústicamente los salones se realizaron mediciones de ruido de fondo y tiempo de reverberación.
     %insertar imágenes de mediciones
-
-    \begin{figure}[h!]
+    \begin{figure}[H]
         \centering
-        \begin{subfigure}[b]{0.15\linewidth}
-            \includegraphics[width=\linewidth]{images/Fotos Mediciones/medicionRDF.jpeg}
-            \caption{Medición de ruido de fondo}
-            \label{fig: medicion de rdf}
-        \end{subfigure}
-        \begin{subfigure}[b]{0.15\linewidth}
-            \includegraphics[width=\linewidth]{images/Fotos Mediciones/medicionRT.jpeg}
-            \caption{Medición de tiempo de reverberación}
-            \label{fig: medicion rt}
-        \end{subfigure}
-        \caption{Mediciones de parámetros acústicos}
-        \label{fig:mediciones}
+        \includegraphics[width=4cm]{images/Fotos Mediciones/medicionRDF.jpeg}
+        \caption{Medición de ruido de fondo}
+        \label{fig: medicion de rdf}
     \end{figure}
-
+\end{frame}
+\begin{frame}{Medición de tiempo de reverberación}
+    \begin{figure}[H]
+        \includegraphics[width=4cm]{images/Fotos Mediciones/medicionRT.jpeg}
+        \caption{Medición de tiempo de reverberación}
+        \label{fig: medicion rt}
+    \end{figure}
 \end{frame}
 % \begin{frame}{Medición de parámetros acústicos de los recintos}
 % Para poder caracterizar acústicamente los salones se utilizaron los siguientes instrumentos:
@@ -183,31 +179,33 @@ Esta planificación se plantea por semanas, desde la semana del 21 de agosto has
 \begin{frame}{Salas de reuniones}
     \begin{table}[H]
     \centering
+    \caption{Parámetros objetivos para salas de reuniones}
+    \label{tab: parametros objetivos sala de reuniones}
     \begin{tabular}{|c|l|c|c|}
     \hline
     \textbf{Parámetro} & \textbf{Uso }                 & \textbf{Valores}     & \textbf{Fuente}  \\ \hline
     Curvas NC & Para salas de juntas & $25$ - $30$ & Recuero \\ \hline
-    $T_{target}$ & Speech/Lecture (A2) & $0.6$ & DIN18041 \\ \hline
-    $C_{50speech}$  & Para la voz &  $C_{50}>0$         &  Marshall  \\ \hline  
-    STI & Transmisión del habla & STI $>0.45$ & ISO 9921\\ \hline
+    $T_{target}$ & Speech/Lecture (A2) & 0.6 & DIN18041 \\ \hline
+    $C_{50speech}$  & Para la voz &  C_{50}>0         &  Marshall  \\ \hline  
+    STI & Transmisión del habla & STI >0.45 & ISO 9921\\ \hline
     \end{tabular}
-    \caption{Parámetros objetivos para salas de reuniones}
-    \label{tab: parametros objetivos sala de reuniones}
+    
 \end{table}
 \end{frame}
 \begin{frame}{Sala de ensayo}
     \begin{table}[H]
     \centering
+    \caption{Parámetros objetivos para sala de ensayo}
+    \label{tab: parametros objetivos sala de ensayo}
     \begin{tabular}{|c|l|c|c|}
     \hline
     \textbf{Parámetro} & \textbf{Uso}                  & \textbf{Valores}     & \textbf{Fuente}  \\ \hline
     Curvas NC & Salas de conciertos y teatros de ópera & $20$ - $25$ & Recuero \\ \hline
-    $RT_{mid}$ & Sala de conciertos (música de cámara) & $1.3$ - $1.7$ & Carrión \\ \hline
+    $RT_{mid}$ & Sala de conciertos (música de cámara) & 1.3 - 1.7 & Carrión \\ \hline
     $C_{80}$  & Para música sinfónica &  $-2<C_{80}<2$         &  Marshall  \\ \hline   
-    $D_{50}$  & Salas de concierto         &  $D_{50}<0.5$         &  - \\ \hline
+    $D_{50}$  & Salas de concierto         &  $D_{50}<$ 0.5         &  Thiele \\ \hline
     \end{tabular}
-    \caption{Parámetros objetivos para sala de ensayo}
-    \label{tab: parametros objetivos sala de ensayo}
+    
 \end{table}
 \end{frame}
 
@@ -272,6 +270,8 @@ Esta planificación se plantea por semanas, desde la semana del 21 de agosto has
     A continuación, se muestra una tabla donde se observa el estado de cada sala con respecto a lo recomendado.
     \begin{table}[H]
     \centering
+    \caption{Estado de parámetros de ruido de fondo por sala}
+    \label{tab: cumplimiento de Rdf}
     \begin{tabular}{|l|c|c|c|}
     \hline
     \textbf{Salones} & \textbf{\begin{tabular}[c]{@{}c@{}}Curva NC\\  recomendada\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Curva NC\\  medida\end{tabular}} & \textbf{Estado} \\ \hline
@@ -279,8 +279,7 @@ Esta planificación se plantea por semanas, desde la semana del 21 de agosto has
     Sala de reunión 2 & $25$ - $30$ & $35$ & \textcolor{red}{No cumple}\\ \hline
     Sala de ensayo & $20$ - $25$ & $35$ & \textcolor{red}{No cumple} \\ \hline
     \end{tabular}
-    \caption{Estado de parámetros de ruido de fondo por sala}
-    \label{tab: cumplimiento de Rdf}
+    
     \end{table}
 \end{frame}
 
@@ -367,16 +366,26 @@ Esta planificación se plantea por semanas, desde la semana del 21 de agosto has
 A partir de los valores obtenidos de tiempo de reverberación, se determinaron parámetros como claridad y definición, parámetros que se compararon con los recomendados en la siguiente tabla
      \begin{table}[H]
         \centering
+        \caption{Parámetros acústicos de las salas de reunión y el estado}
+        \label{tab: cumplimiento parametros RT de salas de reunión}
         \begin{tabular}{|l|c|c|c|}
         \hline
           \textbf{Parámetro}  & \textbf{Recomendación} & \textbf{Sala de reunión 1} & \textbf{Sala de reunión 2}\\ \hline
           $T_{target} (s)$ & 0.6 & \textcolor{red}{No cumple} & \textcolor{red}{No cumple}\\ \hline
           $C_{50speech}$ & $C_{50speech}>0$ & \textcolor{teal}{1.79} & \textcolor{teal}{0.89} \\ \hline
-          STI& STI $>$ 0.45 & &\\\hline
+          STI& STI $>$ 0.45 & \textcolor{teal}{0.66} & \textcolor{teal}{0.64}\\\hline
         \end{tabular}
-        \caption{Parámetros acústicos de las salas de reunión y el estado}
-        \label{tab: cumplimiento parametros RT de salas de reunión}
+        
     \end{table}
+\end{frame}
+\begin{frame}{Tiempo de reverberación}
+    También se determinó el parámetro de definición ($D_{50}$) para la sala de ensayo (ver figura \ref{fig: D50 sala de ensayo}), el cual esta fuera de lo recomendado.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.35]{images/D50_ensayo.png}
+        \caption{$D_{50}$ de sala de ensayo}
+        \label{fig: D50 sala de ensayo}
+    \end{figure}
 \end{frame}
 \begin{frame}{Tiempo de reverberación}
     \begin{table}[H]
@@ -392,15 +401,7 @@ A partir de los valores obtenidos de tiempo de reverberación, se determinaron p
         \label{tab:prametros acusticos sala ensayo}
     \end{table}
 \end{frame}
-\begin{frame}{Tiempo de reverberación}
-    También se determinó el parámetro de definición ($D_{50}$) para la sala de ensayo (ver figura \ref{fig: D50 sala de ensayo}), el cual esta fuera de lo recomendado.
-    \begin{figure}[H]
-        \centering
-        \includegraphics[scale=0.35]{images/D50_ensayo.png}
-        \caption{$D_{50}$ de sala de ensayo}
-        \label{fig: D50 sala de ensayo}
-    \end{figure}
-\end{frame}
+
 \section{Modelación}
 \begin{frame}{Modelo SketchUp}
     \begin{figure}
@@ -460,36 +461,53 @@ A partir de los valores obtenidos de tiempo de reverberación, se determinaron p
 \begin{frame}{Modelo EASE}
 Los modelos en SketchUp correspondientes, se importaron en el software EASE y se ingresó la materialidad respectiva a cada superficie, con información de coeficientes de absorción encontrados en la literatura, como se ve en la siguiente tabla:
     \begin{table}[H]
-    \centering
+        \centering
+        \caption{Materiales utilizados para modelo en EASE.}
+        \label{tab:materiales-ease}
         \begin{tabular}{|c|cccccc|c|}
         \hline
         \multirow{2}{*}{\textbf{Material}} & \multicolumn{6}{c|}{\textbf{Frecuencia (Hz)}}                                                                          & \multirow{2}{*}{\textbf{Fuente}} \\ \cline{2-7} 
-                & \multicolumn{1}{c|}{$125$} & \multicolumn{1}{c|}{$250$} & \multicolumn{1}{c|}{$500$} & \multicolumn{1}{c|}{$1000$} & \multicolumn{1}{c|}{$2000$} & $4000$ & \\ \hline
+                & \multicolumn{1}{c|}{125} & \multicolumn{1}{c|}{250} & \multicolumn{1}{c|}{500} & \multicolumn{1}{c|}{1000} & \multicolumn{1}{c|}{2000} & 4000 & \\ \hline
         Parquet & \multicolumn{1}{c|}{0.04} & \multicolumn{1}{c|}{0.04} & \multicolumn{1}{c|}{0.07} & \multicolumn{1}{c|}{0.06} & \multicolumn{1}{c|}{0.06} &  0.07 & Recuero\\ \hline
         Madera  & \multicolumn{1}{c|}{0.25} & \multicolumn{1}{c|}{0.34} & \multicolumn{1}{c|}{0.18} & \multicolumn{1}{c|}{0.10} & \multicolumn{1}{c|}{0.10} &  0.06 & Recuero\\  \hline
-        Black Acoustic Board (2") & \multicolumn{1}{c|}{0.13} & \multicolumn{1}{c|}{0.75} & \multicolumn{1}{c|}{1.17} & \multicolumn{1}{c|}{1.14} & \multicolumn{1}{c|}{1.05} & 1.09 & Blackboard\\ \hline
+        Black Acoustic Board (2") & \multicolumn{1}{c|}{0.13} & \multicolumn{1}{c|}{0.75} & \multicolumn{1}{c|}{1} & \multicolumn{1}{c|}{1} & \multicolumn{1}{c|}{1} & 1 & Blackboard\\ \hline
         Vidrio  & \multicolumn{1}{c|}{0.05} & \multicolumn{1}{c|}{0.50} & \multicolumn{1}{c|}{0.03} & \multicolumn{1}{c|}{0.03} & \multicolumn{1}{c|}{0.02} & 0.02 & Recuero\\ \hline
         \end{tabular}
-        \caption{Materiales utilizados para modelo en EASE.}
-        \label{tab:materiales-ease}
     \end{table}
 \end{frame}
 \begin{frame}{Modelo EASE con ocupación}
-    Para tener modelar la sala ocupada se consideró el siguiente coeficiente de absorción por persona:
-\begin{table}[H]
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
-\hline
-\textbf{Frecuencia Hz} & \textbf{100}  & \textbf{125}  & \textbf{160}  & \textbf{200}  & \textbf{250}  & \textbf{315}  & \textbf{400}  & \textbf{500}  & \textbf{630}  & \textbf{800}   \\ \hline
-\textbf{Absorción}     & 0.31             & 0.31             & 0.38             & 0.44             & 0.51             & 0.58             & 0.66             & 0.73             & 0.75             & 0.78              \\ \hline
-\textbf{1000}       & \textbf{1250} & \textbf{1600} & \textbf{2000} & \textbf{2500} & \textbf{3150} & \textbf{4000} & \textbf{5000} & \textbf{6300} & \textbf{8000} & \textbf{10000} \\ \hline
-0.8                    & 0.81             & 0.81             & 0.82             & 0.82             & 0.82             & 0.82             & 0.82             & 0.82             & 0.82             & 0.82              \\ \hline
-\end{tabular}%
-}
-\caption{Coeficiente de absorción de una persona sentada de EASE}
-\label{tab: coef abs persona}
-\end{table}
-
+    \noindent Para tener modelar la sala ocupada se consideró el siguiente coeficiente de absorción por persona:
+    \begin{table}[H]
+        \centering
+        \caption{Coeficiente de absorción de una persona sentada de EASE}
+        \label{tab: coef abs persona}
+        \begin{tabular}{|l|l|l|l|l|l|l|}
+        \hline
+        \textbf{Frecuencia Hz}      & 125  & 250  & 500  & 1000 & 2000 & 4000 \\ \hline
+        \textbf{Absorción $\alpha$} & 0.31 & 0.51 & 0.73 & 0.80 & 0.82 & 0.82 \\ \hline
+        \end{tabular}
+    \end{table}
+\end{frame}
+\begin{frame}{Distribución de músicos en ensayo}
+    \begin{figure}
+        \centering
+        \includegraphics[width=8cm]{images/OCV/OCV cuerdas.jpg}
+        \caption{Distribución de músicos de cuerdas frotadas en ensayo}
+    \end{figure}
+\end{frame}
+\begin{frame}{Distribución de músicos en ensayo}
+    \begin{figure}
+        \centering
+        \includegraphics[width=8cm]{images/OCV/OCV vientos.jpg}
+        \caption{Distribución de músicos de instrumentos de bronce y madera en ensayo}
+    \end{figure}
+\end{frame}
+\begin{frame}{Distribución de músicos en salon EASE}
+    \begin{figure}
+        \centering
+        \includegraphics[width=8cm]{images/Sketchup/Instrumentos_ease.png}
+        \caption{Distribución de músicos en sala de ensayo EASE}
+    \end{figure}
 \end{frame}
 \section{Propuesta}
 \begin{frame}{Sala de reuniones}

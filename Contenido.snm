@@ -6,45 +6,42 @@
 \beamer@slide {fig:carta gantt}{10}
 \beamer@slide {fig: planos}{12}
 \beamer@slide {fig: medicion de rdf}{13}
-\beamer@slide {sub@fig: medicion de rdf}{13}
-\beamer@slide {fig: medicion rt}{13}
-\beamer@slide {sub@fig: medicion rt}{13}
-\beamer@slide {fig:mediciones}{13}
-\beamer@slide {tab: parametros objetivos sala de reuniones}{15}
-\beamer@slide {tab: parametros objetivos sala de ensayo}{16}
-\beamer@slide {fig:nc-sala1}{18}
-\beamer@slide {fig:nc-sala2}{19}
-\beamer@slide {fig:nc-ensayo}{20}
-\beamer@slide {tab: cumplimiento de Rdf}{21}
-\beamer@slide {fig:Ttarget sala de reunion 1}{22}
-\beamer@slide {fig:Ttarget sala de reunion 2}{23}
-\beamer@slide {fig:STI actual sala reunion 1}{24}
-\beamer@slide {fig:distribución STI actual sala reunion 1}{25}
-\beamer@slide {fig:STI actual sala reunion 2}{26}
-\beamer@slide {fig:distribución STI actual sala reunion 2}{27}
-\beamer@slide {tab: cumplimiento parametros RT de salas de reunión}{28}
-\beamer@slide {tab:prametros acusticos sala ensayo}{29}
+\beamer@slide {fig: medicion rt}{14}
+\beamer@slide {tab: parametros objetivos sala de reuniones}{16}
+\beamer@slide {tab: parametros objetivos sala de ensayo}{17}
+\beamer@slide {fig:nc-sala1}{19}
+\beamer@slide {fig:nc-sala2}{20}
+\beamer@slide {fig:nc-ensayo}{21}
+\beamer@slide {tab: cumplimiento de Rdf}{22}
+\beamer@slide {fig:Ttarget sala de reunion 1}{23}
+\beamer@slide {fig:Ttarget sala de reunion 2}{24}
+\beamer@slide {fig:STI actual sala reunion 1}{25}
+\beamer@slide {fig:distribución STI actual sala reunion 1}{26}
+\beamer@slide {fig:STI actual sala reunion 2}{27}
+\beamer@slide {fig:distribución STI actual sala reunion 2}{28}
+\beamer@slide {tab: cumplimiento parametros RT de salas de reunión}{29}
 \beamer@slide {fig: D50 sala de ensayo}{30}
-\beamer@slide {fig:skp sala 1}{32}
-\beamer@slide {fig:skp sala 2}{33}
-\beamer@slide {fig:skp sala ensayo}{34}
-\beamer@slide {fig:densidad modal}{35}
-\beamer@slide {fig:modo 48 hz}{36}
-\beamer@slide {fig:RangoInstrumentos}{37}
-\beamer@slide {tab:materiales-ease}{38}
-\beamer@slide {tab: coef abs persona}{39}
-\beamer@slide {fig:modelo sketchup sala 1 acond}{41}
-\beamer@slide {fig:modelo sketchup sala 2 acond}{42}
-\beamer@slide {fig:din sala 1 acond}{44}
-\beamer@slide {fig:din sala 2 acond}{45}
-\beamer@slide {fig:STI sala 1 acond}{46}
-\beamer@slide {fig:dis STI sala 1 acond}{47}
-\beamer@slide {fig:STI sala 2 acond}{48}
-\beamer@slide {fig:dist STI sala 2 acond}{49}
-\beamer@slide {tab: cumplimiento parametros RT}{50}
-\beamer@slide {tab:resultado sala ensayo acondicionado}{51}
-\beamer@slide {fig:presupuesto}{53}
-\beamer@slide {fig: materiales a medir}{55}
-\beamer@slide {fig:enter-label}{56}
-\beamer@slide {fig:grafico coef Lana mineral}{57}
-\beamer@slide {fig:grafico coef Lana vidrio}{58}
+\beamer@slide {tab:prametros acusticos sala ensayo}{31}
+\beamer@slide {fig:skp sala 1}{33}
+\beamer@slide {fig:skp sala 2}{34}
+\beamer@slide {fig:skp sala ensayo}{35}
+\beamer@slide {fig:densidad modal}{36}
+\beamer@slide {fig:modo 48 hz}{37}
+\beamer@slide {fig:RangoInstrumentos}{38}
+\beamer@slide {tab:materiales-ease}{39}
+\beamer@slide {tab: coef abs persona}{40}
+\beamer@slide {fig:modelo sketchup sala 1 acond}{45}
+\beamer@slide {fig:modelo sketchup sala 2 acond}{46}
+\beamer@slide {fig:din sala 1 acond}{48}
+\beamer@slide {fig:din sala 2 acond}{49}
+\beamer@slide {fig:STI sala 1 acond}{50}
+\beamer@slide {fig:dis STI sala 1 acond}{51}
+\beamer@slide {fig:STI sala 2 acond}{52}
+\beamer@slide {fig:dist STI sala 2 acond}{53}
+\beamer@slide {tab: cumplimiento parametros RT}{54}
+\beamer@slide {tab:resultado sala ensayo acondicionado}{55}
+\beamer@slide {fig:presupuesto}{57}
+\beamer@slide {fig: materiales a medir}{59}
+\beamer@slide {fig:enter-label}{60}
+\beamer@slide {fig:grafico coef Lana mineral}{61}
+\beamer@slide {fig:grafico coef Lana vidrio}{62}

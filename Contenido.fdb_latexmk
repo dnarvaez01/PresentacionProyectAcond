@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1701309499 "c:/Users/danie/OneDrive/Escritorio/PresentacionProyectAcond/Contenido.tex" "Contenido.pdf" "Contenido" 1701309534 0
+["pdflatex"] 1701310464 "c:/Users/danie/OneDrive/Escritorio/PresentacionProyectAcond/Contenido.tex" "Contenido.pdf" "Contenido" 1701310500 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1256929440 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc" 1256929440 2840 216e6e45ad352e2456e1149f28885bee ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc" 1256929440 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -288,12 +288,12 @@
   "C:/Program Files/MiKTeX/tex/latex/zref/zref-base.sty" 1695383086 20785 f7d1133a287929598a897c93f8f4c44b ""
   "C:/Users/danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1700877023 95583 662c1f08ea959dd18aca3212254d4548 ""
   "C:/Users/danie/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1700877039 24203458 92af3cb12ebaf4b5528d9160a072ffd0 ""
-  "Contenido.aux" 1701309533 20991 218aa57e60be8829ea92d3ece59f9956 "pdflatex"
-  "Contenido.nav" 1701309533 8547 0cb77c9df37b733dcb6d628b9a12e56e "pdflatex"
-  "Contenido.out" 1701309533 1491 655f956733d43ee83a99a10c6e77b8b0 "pdflatex"
-  "Contenido.toc" 1701309533 639 1cbc952925c452244b53e34ab26ee11f "pdflatex"
+  "Contenido.aux" 1701310499 20991 218aa57e60be8829ea92d3ece59f9956 "pdflatex"
+  "Contenido.nav" 1701310499 8547 0cb77c9df37b733dcb6d628b9a12e56e "pdflatex"
+  "Contenido.out" 1701310499 1491 655f956733d43ee83a99a10c6e77b8b0 "pdflatex"
+  "Contenido.toc" 1701310499 639 1cbc952925c452244b53e34ab26ee11f "pdflatex"
   "beamerthemesintef.sty" 1701302757 9112 5469d3d657aa07340d542f0990d7b8c0 ""
-  "c:/Users/danie/OneDrive/Escritorio/PresentacionProyectAcond/Contenido.tex" 1701309497 29461 3f8a9100c1f8583b1f14a25cda636c1a ""
+  "c:/Users/danie/OneDrive/Escritorio/PresentacionProyectAcond/Contenido.tex" 1701310389 29471 02498391296be8aed463ca72c5f1b0ec ""
   "customize.tex" 1701303360 3206 125db516b27e30be7ce1202f09f06dec ""
   "images/CartaGantt.png" 1701304416 51126 615e5086b120f62f56897128c9c7f434 ""
   "images/Curvas NC/NC ensayo.png" 1701288563 1155199 511b3d182b0e7eacf3726be5930a6661 ""

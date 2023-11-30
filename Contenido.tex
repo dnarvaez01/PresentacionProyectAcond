@@ -186,8 +186,8 @@ Esta planificación se plantea por semanas, desde la semana del 21 de agosto has
     \textbf{Parámetro} & \textbf{Uso }                 & \textbf{Valores}     & \textbf{Fuente}  \\ \hline
     Curvas NC & Para salas de juntas & $25$ - $30$ & Recuero \\ \hline
     $T_{target}$ & Speech/Lecture (A2) & 0.6 & DIN18041 \\ \hline
-    $C_{50speech}$  & Para la voz &  C_{50}>0         &  Marshall  \\ \hline  
-    STI & Transmisión del habla & STI >0.45 & ISO 9921\\ \hline
+    $C_{50speech}$  & Para la voz &  $C_{50}>0$         &  Marshall  \\ \hline  
+    STI & Transmisión del habla & STI $>$ 0.45 & ISO 9921\\ \hline
     \end{tabular}
     
 \end{table}
@@ -523,10 +523,18 @@ Los modelos en SketchUp correspondientes, se importaron en el software EASE y se
     \begin{figure}
         \centering
         \includegraphics[width=6cm]{images/Propuesta/propuesta_reunion2.jpg}
-        \caption{Modelo SketchUp de sala de reunión 1 acondicionado}
+        \caption{Modelo SketchUp de sala de reunión 2 acondicionado}
         \label{fig:modelo sketchup sala 2 acond}
     \end{figure}
     
+\end{frame}
+\begin{frame}{Sala de reuniones}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=6cm]{images/Propuesta/Rigitone-12-25Q.png}
+        \caption{Material escogido para acondicionar salas de reunión}
+        \label{fig:material escogido para acond salas de reunion}
+    \end{figure}
 \end{frame}
 \begin{frame}{Sala de reuniones}
     \begin{table}[H]
@@ -536,14 +544,20 @@ Los modelos en SketchUp correspondientes, se importaron en el software EASE y se
     \multicolumn{7}{|c|}{\textbf{12/25 Q}} \\ \hline
     \multicolumn{1}{|l|}{Plenum} & \multicolumn{6}{c|}{200 mm} \\ \hline
     \multicolumn{1}{|l|}{Aislan} & \multicolumn{6}{c|}{60  mm} \\ \hline
-    \multicolumn{1}{|l|}{Frecuencia Hz} & \multicolumn{1}{l|}{125 Hz} & \multicolumn{1}{l|}{250Hz} & \multicolumn{1}{l|}{500 Hz} & \multicolumn{1}{l|}{1 KHz} & \multicolumn{1}{l|}{2KHz} & 4KHz \\ \hline
+    \multicolumn{1}{|l|}{Frecuencia Hz} & \multicolumn{1}{l|}{125 Hz} & \multicolumn{1}{l|}{250 Hz} & \multicolumn{1}{l|}{500 Hz} & \multicolumn{1}{l|}{1 KHz} & \multicolumn{1}{l|}{2 KHz} & 4 KHz \\ \hline
     \multicolumn{1}{|l|}{$\alpha$} & \multicolumn{1}{l|}{0.60} & \multicolumn{1}{l|}{0.90} & \multicolumn{1}{l|}{0.95} & \multicolumn{1}{l|}{0.90} & \multicolumn{1}{l|}{0.80} & 0.75 \\ \hline
     \end{tabular}
     \caption{Coeficiente de absorción de Volcanita acústica Rigitone}
     \end{table}  
 
 \end{frame}
-
+\begin{frame}{Sala de ensayo}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=6cm]{images/Propuesta/Sala ensayo sin paneles.jpg}
+        \caption{Modelo SketchUp de sala de ensayo sin paneles}
+    \end{figure}
+\end{frame}
 \begin{frame}{Resultados salas de reuniones}
     \begin{figure}
         \centering
@@ -600,28 +614,43 @@ Los modelos en SketchUp correspondientes, se importaron en el software EASE y se
 \begin{frame}{Resultados salas de reuniones}
     \begin{table}[H]
         \centering
-        \begin{tabular}{|l|c|c|c|c|c|c|}
+        \caption{Parámetros acústicos de las salas de reunión del estado actual y acondicionado}
+        \label{tab: resultados salas de reunion}
+        \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|l|l|ll|ll|}
         \hline
-          \textbf{Salón}  & $T_{target} (s)$ & \textbf{Estado} & $C_{50speech}(dB)$ & \textbf{Estado} & STI & \textbf{Estado}\\ \hline
-          Sala de reunión $1$   & - & Cumple & 3.5 & Cumple & - & Cumple \\ \hline
-          Sala de reunión $2$   & - & Cumple & 3.9 & Cumple & - & Cumple \\ \hline
-        \end{tabular}
-        \caption{Resultados de salas de reuniones acondicionados}
-        \label{tab: cumplimiento parametros RT}
+         &  & \multicolumn{2}{l|}{\textbf{Sala de reunión 1}} & \multicolumn{2}{l|}{\textbf{Sala de reunión 2}} \\ \cline{3-6} 
+        \multirow{-2}{*}{\textbf{Parámetro}} & \multirow{-2}{*}{\textbf{Recomendación}} & \multicolumn{1}{l|}{\textbf{Estado actual}} & \textbf{Propuesta} & \multicolumn{1}{l|}{\textbf{Estado actual}} & \textbf{Propuesta} \\ \hline
+        $T_{target}$ & 0.6 & \multicolumn{1}{l|}{\textcolor{red}{No cumple}} & \textcolor{teal}{Cumple} & \multicolumn{1}{l|}{\textcolor{red}{No cumple}} & \textcolor{teal}{Cumple} \\ \hline
+        $C_{50speech}$ & $C_{50speech}>0$ & \multicolumn{1}{l|}{\textcolor{teal}{1.79}} & \textcolor{teal}{3.5} & \multicolumn{1}{l|}{\textcolor{teal}{0.89}} & \textcolor{teal}{3.9} \\ \hline
+        STI & STI \textgreater 0.45 & \multicolumn{1}{l|}{\textcolor{teal}{0.66}} & \textcolor{teal}{0.70} & \multicolumn{1}{l|}{\textcolor{teal}{0.64}} & \textcolor{teal}{0.72} \\ \hline
+        \end{tabular}%
+        }
     \end{table}
+\end{frame}
+\begin{frame}{Resultados sala de ensayo}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=8cm]{images/D50_comparacion.png}
+        \caption{Comparación de D50 en sala de ensayo en su estado actual y acondicionado}
+    \end{figure}
 \end{frame}
 
 \begin{frame}{Resultados sala de ensayo}
-    \begin{table}[H]
-        \centering
-        \begin{tabular}{|l|c|c|c|c|}
-        \hline
-        \textbf{Salón} & $RT{mid} (s)$ & \textbf{Estado} & $C_{80}(dB)$ & \textbf{Estado} \\ \hline
-        Sala de ensayo &  $1.4$ & Cumple & 3 & No cumple \\ \hline
-        \end{tabular}
-        \caption{Parámetros acústicos de la sala de ensayo y su estado}
-        \label{tab:resultado sala ensayo acondicionado}
-    \end{table}
+   
+\begin{table}[H]
+    \centering
+    \caption{Parámetros acústicos de la sala de ensayo del estado actual y acondicionado}
+    \label{tab: resultados sala de ensayo}
+    \begin{tabular}{|l|l|ll|}
+    \hline
+     &  & \multicolumn{2}{l|}{\textbf{Sala de ensayo}} \\ \cline{3-4} 
+    \multirow{-2}{*}{\textbf{Parámetro}} & \multirow{-2}{*}{\textbf{Recomendación}} & \multicolumn{1}{l|}{\textbf{Estado actual}} & \textbf{Propuesta} \\ \hline
+    $RT_{mid}$ & 0.3 - 0.7 & \multicolumn{1}{l|}{\textcolor{red}{0.74}} & \textcolor{teal}{1.4} \\ \hline
+    $C_{80}$ & $-2<C_{80}<2$ & \multicolumn{1}{l|}{\textcolor{red}{6.04}} & \textcolor{teal}{3} \\ \hline
+    $D_{50}$ & $D_{50}$ \textless 0.5 & \multicolumn{1}{l|}{\textcolor{red}{$65\%$}} & \textcolor{teal}{$33\%$} \\ \hline
+    \end{tabular}
+\end{table}
 \end{frame}
 
 
@@ -635,6 +664,11 @@ Los modelos en SketchUp correspondientes, se importaron en el software EASE y se
     \label{fig:presupuesto}
 \end{figure}    
 \end{frame}
+
+\begin{frame}{Presupuesto de materiales}
+    %insertar tabla
+\end{frame}
+
 \section{Medición coeficiente de absorción acústica de un material}
 \begin{frame}{Materiales escogidos}
     Se escogió un panel de madera ranurado de 2.4 cm de espesor, con lana de vidrio y lana mineral, midiéndolo sin plenum y plenum de 2 cm.
@@ -643,6 +677,15 @@ Los modelos en SketchUp correspondientes, se importaron en el software EASE y se
         \includegraphics[width=7cm]{images/Medición abs/materiales.jpeg}
         \caption{Materiales de medición}
         \label{fig: materiales a medir}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Madera ranurada}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=7cm]{images/Medición abs/MATERIAL.png}
+        \caption{Dimensiones de madera ranurada}
+        \label{fig: madera ranurada}
     \end{figure}
 \end{frame}
 
@@ -673,15 +716,16 @@ Los modelos en SketchUp correspondientes, se importaron en el software EASE y se
     \end{figure}
 \end{frame}
 
-\section{Conclusiones Parciales}
-\begin{frame}{Conclusiones Parciales}
-
-\begin{itemize}
-    \item Se presentó propuestas de acondicionamiento acústico para cada sala procurando que cumplieran con los parámetros establecidos encontrados en la literatura.
-    \item Se realizó el procedimiento de medición de coeficiente de absorción en tubo de Kundt, según la norma ISO 10534, para diferentes combinaciones de materiales y espaciados.
-\end{itemize}  
+\section{Conclusiones}
+\begin{frame}{Conclusiones}
+    \begin{itemize}
+        \item Se logró cumplir con las actividades propuestas en el cronograma.
+        \item A raíz de los resultados de las mediciones, se logró identificar si estos son adecuados acústicamente para el uso de cada uno de estos recintos.
+        \item El ruido presente en los salones es el problema que predomina, incumpliendo con las curvas NC recomendadas para su uso.
+        \item En el caso del tiempo de reverberación en las salas de reuniones según la norma DIN18041 estos no cumplen con valores acordes a su uso. Lo cual con la propuesta dada en este proyecto se logró cumplir con este criterio, además de mejorar la claridad y la inteligibilidad de la palabra en ambas salas.
+        \item En el caso del tiempo de reverberación de la sala de ensayo, los valores eran demasiado bajos con la implementación que se realizó por parte de la administración.
+    \end{itemize}
 \end{frame}
-
 
 \footlinecolor{sintefblue}
 

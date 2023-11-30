@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.24)  29 NOV 2023 23:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.24)  30 NOV 2023 00:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1545,50 +1545,56 @@ Package pdftex.def Info: images/Presupuesto.png  used on input line 666.
 (pdftex.def)             Requested size: 284.52756pt x 118.0399pt.
  [60
 
- <./images/Presupuesto.png>] [61
+ <./images/Presupuesto.png>]
+<images/Presupuesto_material.jpg, id=648, 1728.4575pt x 328.22626pt>
+File: images/Presupuesto_material.jpg Graphic file (type jpg)
+<use images/Presupuesto_material.jpg>
+Package pdftex.def Info: images/Presupuesto_material.jpg  used on input line 674.
+(pdftex.def)             Requested size: 398.33858pt x 75.64069pt.
+ [61
 
-] (Contenido.toc
+ <./images/Presupuesto_material.jpg>] (Contenido.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 ) [62
 
 ]
-<images/Medición abs/materiales.jpeg, id=671, 1606.0pt x 903.375pt>
+<images/Medición abs/materiales.jpeg, id=672, 1606.0pt x 903.375pt>
 File: images/Medición abs/materiales.jpeg Graphic file (type jpg)
 <use images/Medición abs/materiales.jpeg>
-Package pdftex.def Info: images/Medición abs/materiales.jpeg  used on input line 681.
+Package pdftex.def Info: images/Medición abs/materiales.jpeg  used on input line 685.
 (pdftex.def)             Requested size: 199.16928pt x 112.0256pt.
  [63
 
  <./images/Medición abs/materiales.jpeg>]
-<images/Medición abs/MATERIAL.png, id=679, 757.32938pt x 410.2828pt>
+<images/Medición abs/MATERIAL.png, id=680, 757.32938pt x 410.2828pt>
 File: images/Medición abs/MATERIAL.png Graphic file (type png)
 <use images/Medición abs/MATERIAL.png>
-Package pdftex.def Info: images/Medición abs/MATERIAL.png  used on input line 690.
+Package pdftex.def Info: images/Medición abs/MATERIAL.png  used on input line 694.
 (pdftex.def)             Requested size: 199.16928pt x 107.89804pt.
  [64
 
  <./images/Medición abs/MATERIAL.png>]
-<images/Medición abs/Tabla coef.png, id=687, 740.0147pt x 341.77687pt>
+<images/Medición abs/Tabla coef.png, id=688, 740.0147pt x 341.77687pt>
 File: images/Medición abs/Tabla coef.png Graphic file (type png)
 <use images/Medición abs/Tabla coef.png>
-Package pdftex.def Info: images/Medición abs/Tabla coef.png  used on input line 699.
+Package pdftex.def Info: images/Medición abs/Tabla coef.png  used on input line 703.
 (pdftex.def)             Requested size: 256.0748pt x 118.26776pt.
  [65
 
  <./images/Medición abs/Tabla coef.png>]
-<images/Medición abs/Grafico coef.abs LanaMineral.png, id=696, 577.065pt x 300.03pt>
+<images/Medición abs/Grafico coef.abs LanaMineral.png, id=697, 577.065pt x 300.03pt>
 File: images/Medición abs/Grafico coef.abs LanaMineral.png Graphic file (type png)
 <use images/Medición abs/Grafico coef.abs LanaMineral.png>
-Package pdftex.def Info: images/Medición abs/Grafico coef.abs LanaMineral.png  used on input line 708.
+Package pdftex.def Info: images/Medición abs/Grafico coef.abs LanaMineral.png  used on input line 712.
 (pdftex.def)             Requested size: 256.0748pt x 133.13522pt.
  [66
 
  <./images/Medición abs/Grafico coef.abs LanaMineral.png>]
-<images/Medición abs/Grafico coef.abs LanaVidrio.png, id=705, 553.851pt x 293.898pt>
+<images/Medición abs/Grafico coef.abs LanaVidrio.png, id=706, 553.851pt x 293.898pt>
 File: images/Medición abs/Grafico coef.abs LanaVidrio.png Graphic file (type png)
 <use images/Medición abs/Grafico coef.abs LanaVidrio.png>
-Package pdftex.def Info: images/Medición abs/Grafico coef.abs LanaVidrio.png  used on input line 717.
+Package pdftex.def Info: images/Medición abs/Grafico coef.abs LanaVidrio.png  used on input line 721.
 (pdftex.def)             Requested size: 256.0748pt x 135.88531pt.
  [67
 
@@ -1600,10 +1606,10 @@ LaTeX Info: Redefining \% on input line 1.
 ] [69
 
 ]
-<images/Fondo2.png, id=737, 1445.4pt x 813.0375pt>
+<images/Fondo2.png, id=738, 1445.4pt x 813.0375pt>
 File: images/Fondo2.png Graphic file (type png)
 <use images/Fondo2.png>
-Package pdftex.def Info: images/Fondo2.png  used on input line 733.
+Package pdftex.def Info: images/Fondo2.png  used on input line 737.
 (pdftex.def)             Requested size: 455.23724pt x 256.07095pt.
  [70
 
@@ -1633,17 +1639,17 @@ Package rerunfilecheck Info: File `Contenido.out' has not changed.
 (rerunfilecheck)             Checksum: 655F956733D43EE83A99A10C6E77B8B0;1491.
  ) 
 Here is how much of TeX's memory you used:
- 32881 strings out of 474586
- 639194 string characters out of 5755495
+ 32888 strings out of 474586
+ 639509 string characters out of 5755495
  1940558 words of memory out of 5000000
- 54152 multiletter control sequences out of 15000+600000
+ 54159 multiletter control sequences out of 15000+600000
  644691 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  142i,13n,156p,520b,743s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Contenido.pdf (70 pages, 15416113 bytes).
+Output written on Contenido.pdf (70 pages, 15575654 bytes).
 PDF statistics:
- 856 PDF objects out of 1000 (max. 8388607)
+ 857 PDF objects out of 1000 (max. 8388607)
  201 named destinations out of 1000 (max. 500000)
- 366 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 371 words of extra memory for PDF output out of 10000 (max. 10000000)
 
